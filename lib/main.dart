@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fordago_application/screens/mainscreen.dart';
 
 void main() {
   runApp(
@@ -11,6 +12,8 @@ class myApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: Mainscreen(),
+    );
   }
 }
